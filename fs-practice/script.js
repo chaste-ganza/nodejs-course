@@ -1,9 +1,14 @@
 const fs = require("fs")
 //This is the function that contains info to be pushed in the json file
+
+let namesList = ["Chaste","John","Josh"]
+let genderList = ["male","female"]
+let specilializationList = ["backend-developer","AI-engineer","Frontend-developer"]
+
 function addChaste(list){
-    list.name.push("Chaste")
-    list.gender.push("male")
-    list.specilialization.push("AI-engineer")
+    list.name.push(namesList[Math.round(Math.random(namesList) * 2)])
+    list.gender.push(genderList[Math.round(Math.random(genderList) * 1)])
+    list.specilialization.push(specilializationList[Math.round(Math.random(specilializationList) * 2)])
 }
 
 //This is the line that read the content of the file
