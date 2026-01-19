@@ -1,0 +1,25 @@
+{
+  "name": "chaste-package",
+  "version": "1.0.0",
+  "description": "This package creates a json file that contains a list of students and everytime it is run, it randomly add other student's in the json file",
+  "keywords": [
+    "json",
+    "student"
+  ],
+  "homepage": "https://github.com/chaste-ganza/nodejs-course#readme",
+  "bugs": {
+    "url": "https://github.com/chaste-ganza/nodejs-course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaste-ganza/nodejs-course.git"
+  },
+  "license": "MIT",
+  "author": "Chaste",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "index",
+    "test": "main"
+  }
+}
